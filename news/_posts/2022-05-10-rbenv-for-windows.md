@@ -14,8 +14,9 @@ author: ccmywish
 
 <!-- 注意，使用Markdown语法 ``` 是无效的 -->
 {% highlight PowerShell %}
-mkdir "C:\Ruby-on-Windows"
-git -C "C:\Ruby-on-Windows" clone "https://github.com/ccmywish/rbenv-for-windows" rbenv
+# 自定义你想安装到的位置，最好不要有空格，因为没有测试过
+$env:RBENV_ROOT = "C:\Ruby-on-Windows"
+iwr -useb "https://gitee.com/ccmywish/rbenv-for-windows/raw/main/tools/install-cn.ps1" | iex
 {% endhighlight %}
 
 然后在`$profile`中添加这些内容:
