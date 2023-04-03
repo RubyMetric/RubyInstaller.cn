@@ -6,6 +6,11 @@ author: ccmywish
 
 无论您是初级用户还是高级用户，我都建议您直接使用`rbenv for Windows`，从命令行上安装管理多个Ruby版本，从而无需手动处理您不熟悉的内容(比如`MSYS2`,`ridk`工具等)。我们已经利用了该站所提供的下载链接，所以您可放心使用，不会遇到网络问题。
 
+现在该工具已被Ruby官方网站收录并推荐使用:
+
+- [https://www.ruby-lang.org/en/documentation/installation/#rbenv-for-windows](https://www.ruby-lang.org/en/documentation/installation/#rbenv-for-windows)
+- [https://www.ruby-lang.org/zh_cn/documentation/installation/#rbenv-for-windows](https://www.ruby-lang.org/zh_cn/documentation/installation/#rbenv-for-windows)
+
 > 本文最后修订日期: <2023-04-03>
 
 ## 安装

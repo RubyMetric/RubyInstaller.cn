@@ -16,7 +16,7 @@ title: RubyInstaller for Windows - 国内镜像
 
 ## rbenv for Windows
 
-您可使用**<a href="https://github.com/ccmywish/rbenv-for-windows" target="_blank">rbenv for Windows</a>**来在Windows命令行上管理(下载、安装、切换、卸载等)多版本Ruby，此程序内置本站镜像链接，国内用户无需担心网络问题
+您可使用**<a href="https://github.com/ccmywish/rbenv-for-windows" target="_blank">rbenv for Windows</a>**在Windows命令行上管理(下载、安装、切换、卸载等)多版本Ruby，此程序内置本站镜像链接，国内用户无需担心网络问题，并且[受到Ruby官方推荐](https://www.ruby-lang.org/en/documentation/installation/#rbenv-for-windows)。
 
 ## rbenv-cn
 
