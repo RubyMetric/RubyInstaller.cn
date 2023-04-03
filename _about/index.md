@@ -11,7 +11,7 @@ order: 10
 
 ## RubyInstaller.cn 贡献者
 
-* {% avatar ccmywish size=49 %} [ccmywish](https://gitee.com/ccmywish) 提出此站倡议，维护域名，进行本站主要开发工作
+* {% avatar ccmywish size=49 %} [ccmywish](https://github.com/ccmywish) 提出此站倡议，维护域名，进行本站主要开发工作
 * {% avatar skyzh size=49 %} [Alex Chi](https://github.com/skyzh)  为本站协调镜像服务的提供
 * {% avatar larskanis size=49 %} [Lars Kanis](https://github.com/larskanis) 上游主要维护者，为建站以及镜像服务提供了信息
 
