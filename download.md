@@ -37,9 +37,9 @@ Gems文档:
 
 ## 如何更新？
 
-通过运行新版本的安装程序，Ruby可以更新到最新的补丁版本(例如从3.0.0到3.0.3)，已安装的Gem不会被覆盖，并且将在不重新安装的情况下与新版本一起使用。对于这些更新式安装，使用没有Devkit的普通RubyInstaller(左侧没有显式为您提供链接)就足够了。Devkit可以使用`ridk install`命令单独更新。
+通过运行新版本的安装程序，Ruby可以更新到最新的补丁版本(例如从3.1.0到3.1.3)，已安装的Gem不会被覆盖，并且将在不重新安装的情况下与新版本一起使用。对于这些更新式安装，使用没有Devkit的普通RubyInstaller(左侧没有显式为您提供链接)就足够了。Devkit可以使用`ridk install`命令单独更新。
 
-如果新的Ruby版本和旧的版本处于不同的稳定版本分支，那么请使用一个新的目录进行安装。也就是说，以前的**RubyInstaller 3.0.x**安装<b>不应</b>通过将**RubyInstaller 3.1.x**安装进入同一目录来进行更新。这是因为带有C语言扩展的Gems在Ruby 3.0和3.1之间不兼容。在**[Wiki: 常见问题FAQ](https://github.com/oneclick/rubyinstaller2/wiki/FAQ#user-content-update-install)**中了解更多信息。
+如果新的Ruby版本和旧的版本处于不同的稳定版本分支，那么请使用一个新的目录进行安装。也就是说，以前的**RubyInstaller 3.1.x**安装<b>不应</b>通过将**RubyInstaller 3.2.x**安装进入同一目录来进行更新。这是因为带有C语言扩展的Gems在Ruby 3.1和3.2之间不兼容。在**[Wiki: 常见问题FAQ](https://github.com/oneclick/rubyinstaller2/wiki/FAQ#user-content-update-install)**中了解更多信息。
 
 <br>
 
