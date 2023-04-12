@@ -11,7 +11,7 @@ author: ccmywish
 - [https://www.ruby-lang.org/en/documentation/installation/#rbenv-for-windows](https://www.ruby-lang.org/en/documentation/installation/#rbenv-for-windows)
 - [https://www.ruby-lang.org/zh_cn/documentation/installation/#rbenv-for-windows](https://www.ruby-lang.org/zh_cn/documentation/installation/#rbenv-for-windows)
 
-> 本文最后修订日期: <2023-04-03>
+> 本文最后修订日期: <2023-04-12>
 
 ## 安装
 
@@ -21,7 +21,8 @@ author: ccmywish
 {% highlight PowerShell %}
 # 自定义你想安装到的位置，最好不要有空格，因为没有测试过
 $env:RBENV_ROOT = "C:\Ruby-on-Windows"
-iwr -useb "https://gitee.com/ccmywish/rbenv-for-windows/raw/main/tools/install-cn.ps1" | iex
+$s = (iwr -useb "https://gitee.com/ccmywish/rbenv-for-windows/raw/main/tools/install.ps1")
+icm -sc ([scriptblock]::Create($s.Content)) -arg "install", "cn"
 {% endhighlight %}
 
 然后在`$profile`中添加这些内容:
