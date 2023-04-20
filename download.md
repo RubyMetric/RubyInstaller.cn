@@ -10,7 +10,7 @@ permalink: /download/
 
 ### 我是否需要Devkit？
 
-> ccmywish: 简单的来说，绝大部分情况下你需要（比如，当你向想使用Ruby on Rails来开发时）
+> ccmywish: 简单的来说，绝大部分情况下你需要（比如，当你想使用Ruby on Rails来开发时）
 
 > 使用**[rbenv for Windows](https://github.com/ccmywish/rbenv-for-windows)**可使您再也无需操心此类决策问题。
 

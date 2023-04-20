@@ -7,9 +7,9 @@ order: 15
 
 ## 这是为你准备的吗?
 
-**[Ruby](https://www.ruby-lang.org)**是一种[很棒的语言](http://www.bestprogramminglanguagefor.me/why-learn-ruby)，适合初学者和专业人士。它既适用于小型脚本，也适用于大型应用程序。
+**[Ruby](https://www.ruby-lang.org)**是一个**[很棒的编程语言](http://www.bestprogramminglanguagefor.me/why-learn-ruby)**，适合初学者和专业人士。它既适用于小型脚本，也适用于大型应用程序。
 
-RubyInstaller是Windows上最简单、应用最广泛的Ruby环境，它将本机Windows程序的可能性与丰富的UNIX工具集**[MSYS2](http://www.msys2.org)**以及**[大型的MINGW库](https://github.com/Alexpux/MINGW-packages)**结合起来。因此RubyInstaller是使用Ruby进行开发和生产的一种很好的方法，特别是当您只想使用Ruby进行日常脚本编写或需要访问Windows资源（如硬件设备、DLL、OLE、图形用户界面或GPU）时。
+RubyInstaller是Windows上最简单、应用最广泛的Ruby环境，它将本机Windows程序的可能性与丰富的UNIX工具集**[MSYS2](http://www.msys2.org)**以及**[大型的MinGW库](https://github.com/msys2/MINGW-packages)**结合起来。因此RubyInstaller是使用Ruby进行开发和生产的一种很好的方法，特别是当您只想使用Ruby进行日常脚本编写或需要访问Windows资源（如硬件设备、DLL、OLE、图形用户界面或GPU）时。
 
 ### 对比
 
