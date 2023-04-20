@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "发布 RubyInstaller 3.1.3-1, 3.0.5-1, 和2.7.7-1"
+title:  "发布 RubyInstaller 3.1.3-1, 3.0.5-1 和 2.7.7-1"
 authors:
   - Lars Kanis
   - ccmywish

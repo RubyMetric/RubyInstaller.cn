@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RubyInstaller 3.2.1-1 released"
+title:  "发布 RubyInstaller 3.2.1-1"
 authors:
   - Lars Kanis
   - ccmywish
