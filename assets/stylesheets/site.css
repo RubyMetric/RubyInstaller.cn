@@ -1,10 +1,10 @@
 /* --------------------------------------------------------------
 * File          : site.css
-* Authors       : ccmywish <ccmywish@qq.com>
+* Authors       : Holger Arndt <github@kjarrigan.de>
+*                 Lars Kanis <lars@greiz-reinsdorf.de>
+*                 Aozan Zeng <ccmywish@qq.com>
 * Created on    : <2021-01-19>
 * Last modified : <2023-01-24>
-* Contributors  : Holger Arndt <github@kjarrigan.de>
-*                 Lars Kanis <lars@greiz-reinsdorf.de>
 *
 * site:
 *
@@ -153,12 +153,12 @@ background-color: #f1f1f1;}
 /*
 取消首页顶部的原有banner
 #page {
-        background: #ffffff url(../assets/bg.png) repeat-x top left;
+        background: #ffffff url(../images/bg.png) repeat-x top left;
 }
 
 取消首页顶部蓝色栏
 #page-sub {
-        background: #ffffff url(../assets/bg_sub.png) repeat-x top left;
+        background: #ffffff url(../images/bg_sub.png) repeat-x top left;
 }
 */
 
@@ -396,7 +396,7 @@ ul#navbar li#active a {
         /* 不需要加下滑线了 */
         color: rgb(234 179 8);
 
-        /* background:url("../assets/menu_active_left.png") no-repeat left center; */
+        /* background:url("../images/menu_active_left.png") no-repeat left center; */
 }
 
 /* 整个li元素被hover时，a元素的样式。而不是之前的的a元素被hover时 */
@@ -449,7 +449,7 @@ div#intro-container {
         /* width: 1150px; */
 
         /*
-        background-image: url(../assets/bg.png);
+        background-image: url(../images/bg.png);
         background-repeat: round;
         background-size: 100px;
         */
@@ -526,12 +526,12 @@ div#download_btn a, div#download_btn a:link, div#download_btn a:visited {
         display: block;
         width: 229px;
         height: 85px;
-        background:url("../assets/download_btn.png") repeat-x 0 0;
+        background:url("../images/download_btn.png") repeat-x 0 0;
         cursor: pointer;
 }
 div#download_btn a:hover {
         color: #fff;
-        background:url("../assets/download_btn.png") repeat-x 0 -85px;
+        background:url("../images/download_btn.png") repeat-x 0 -85px;
 }
 
 div#download_btn a:active {
@@ -548,12 +548,12 @@ ul#sidenavbar {
         font-size: 16px;
         margin:0;
         padding: 1px 0 0 0;
-        background:url(../assets/line_submenu.png) top right no-repeat;
+        background:url(../images/line_submenu.png) top right no-repeat;
 }
 ul#sidenavbar li {
         height: 35px;
         padding-left: 30px;
-        background:url(../assets/line_submenu.png) bottom right no-repeat;
+        background:url(../images/line_submenu.png) bottom right no-repeat;
         line-height: 2.0;
 }
 
@@ -566,16 +566,16 @@ ul#sidenavbar li.current {
 }
 /* 当前选中的链接 */
 ul#sidenavbar span {
-        background:url("../assets/bullet.png") no-repeat 0 -18px;
+        background:url("../images/bullet.png") no-repeat 0 -18px;
         padding-left: 20px;
 }
 /* 当前未选中的链接 */
 ul#sidenavbar a {
-        background:url("../assets/bullet.png") no-repeat 0 2px;
+        background:url("../images/bullet.png") no-repeat 0 2px;
         padding-left: 20px;
 }
 ul#sidenavbar a:hover {
-        background:url("../assets/bullet.png") no-repeat 0 -18px;
+        background:url("../images/bullet.png") no-repeat 0 -18px;
 }
 
 
@@ -602,12 +602,12 @@ p.posted {
         margin-right: 10px;
 }
 div.news_item a.more {
-        background:url("../assets/bullet.png") no-repeat 0 0px;
+        background:url("../images/bullet.png") no-repeat 0 0px;
         padding-left: 20px;
         padding-bottom: 1px;
 }
 div.news_item a:hover.more {
-        background:url("../assets/bullet.png") no-repeat 0 -20px;
+        background:url("../images/bullet.png") no-repeat 0 -20px;
 }
 
 
@@ -641,7 +641,7 @@ div#copyright {
 }
 
 div#footer a.edit {
-        background:url("../assets/document-edit.png") no-repeat bottom left;
+        background:url("../images/document-edit.png") no-repeat bottom left;
         padding-left: 20px;
 }
 
@@ -673,22 +673,22 @@ a#archive:hover { text-decoration:none; }
 a#archive:after { content:"\BB"; }
 
 li.ridk_exe, li.rubyinstaller_exe {
-        /* list-style-image:url("../assets/exe_16x16.png");  */
-        /* list-style-image:url("../assets/material-icon-theme-ruby.svg"); */
+        /* list-style-image:url("../images/exe_16x16.png");  */
+        /* list-style-image:url("../images/material-icon-theme-ruby.svg"); */
         /* 取消li的小图标 */
         list-style: none;
         /* 上右下左 */
         padding: 3px 0 3px 30px;
-        background-image: url("../assets/material-icon-theme-ruby.svg");
+        background-image: url("../images/material-icon-theme-ruby.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 20px;
         list-style-position:inside;
 }
 
-li.rubyinstaller7z, li.rubychm7z { list-style-image:url("../assets/sevenz_16x16.png"); list-style-position:inside; }
-li.chksum { list-style-image:url("../assets/chksum_16x16.png"); list-style-position:inside; }
-li.devkitsfx { list-style-image:url("../assets/sfx_24x19.png"); list-style-position:inside; }
+li.rubyinstaller7z, li.rubychm7z { list-style-image:url("../images/sevenz_16x16.png"); list-style-position:inside; }
+li.chksum { list-style-image:url("../images/chksum_16x16.png"); list-style-position:inside; }
+li.devkitsfx { list-style-image:url("../images/sfx_24x19.png"); list-style-position:inside; }
 
 a.downloadlink {
   display: inline-block;
@@ -724,7 +724,7 @@ ul.downloadinfo {
 }
 
 button.js-copybtn {
-  background:url("../assets/copy_clipboard.svg");
+  background:url("../images/copy_clipboard.svg");
   background-color: #eff3f6;
   background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
   background-repeat: repeat-x;

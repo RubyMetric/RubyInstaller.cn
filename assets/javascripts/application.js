@@ -1,6 +1,7 @@
 /* --------------------------------------------------------------
 * File          : application.js
-* Authors       : Aoran Zeng <ccmywish@qq.com>
+* Authors       : Lars Kanis <lars@greiz-reinsdorf.de>
+*                 Aoran Zeng <ccmywish@qq.com>
 * Created on    : <2023-05-16>
 * Last modified : <2023-05-17>
 *
@@ -13,7 +14,7 @@
 * ~> v0.1.0
 * <2023-05-17> 1. Fix old style jQuery method
 *              2. Add PopUp effect when clicking the 'copybtn'
-* <2023-05-16> Migrate file from original application.js
+* <2023-05-16> ccmywish: I begin to maintain this file
 * -------------------------------------------------------------*/
 
 $(function() {

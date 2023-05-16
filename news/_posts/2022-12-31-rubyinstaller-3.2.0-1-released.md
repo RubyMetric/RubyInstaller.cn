@@ -11,7 +11,7 @@ Ruby在Windows平台上的一个显著的增进是[对UNIXSocket的支持](https
 
 现在RubyInstaller安装过程提供了一个系统范围的安装，需要获得管理员权限。
 
-![installer_all_users](/assets/posts/installer_all_users.png){:class="img-responsive"}
+![installer_all_users](/assets/images/posts/installer_all_users.png){:class="img-responsive"}
 
 在这种情况下，普通用户可以使用公用的Ruby，但对此公用Ruby目录没有写权限。Gems可以被系统管理员集中安装，或者被自动的重定向到一个用户的私有目录。
 
