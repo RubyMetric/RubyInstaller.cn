@@ -717,6 +717,12 @@ ul.downloadinfo {
   border-radius: 3px;
   vertical-align: middle;
 }
+
+#GotCopied-PopUp {
+  position: fixed;
+  display: none;
+}
+
 button.js-copybtn {
   background:url("../assets/copy_clipboard.svg");
   background-color: #eff3f6;
