@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------
-* File          : application.js
+* File          : app.js
 * Authors       : Lars Kanis <lars@greiz-reinsdorf.de>
 *                 Aoran Zeng <ccmywish@qq.com>
 * Created on    : <2023-05-16>
