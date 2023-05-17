@@ -689,9 +689,10 @@ li.ridk_exe, li.rubyinstaller_exe {
         list-style-position:inside;
 }
 
-li.rubyinstaller7z, li.rubychm7z { list-style-image:url("../images/sevenz_16x16.png"); list-style-position:inside; }
-li.chksum { list-style-image:url("../images/chksum_16x16.png"); list-style-position:inside; }
-li.devkitsfx { list-style-image:url("../images/sfx_24x19.png"); list-style-position:inside; }
+li.chksum {
+  list-style-image:url("../images/chksum_16x16.png");
+  list-style-position:inside;
+}
 
 a.downloadlink {
   display: inline-block;
