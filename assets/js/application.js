@@ -24,11 +24,11 @@ $(function() {
     $input.trigger("select");
     navigator.clipboard.writeText($input.val());
 
-    $('#GotCopied-PopUp').slideDown(600, function(){
+    $('#GotCopied-PopUp').slideDown(360, function(){
       var self = $(this);
       setTimeout( () => {
-        self.slideUp(600);
-      }, 2000);
+        self.slideUp(200);
+      }, 1200);
     })
   });
 
