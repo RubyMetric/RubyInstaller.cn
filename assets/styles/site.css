@@ -4,7 +4,7 @@
 *                 Lars Kanis <lars@greiz-reinsdorf.de>
 *                 Aozan Zeng <ccmywish@qq.com>
 * Created on    : <2021-01-19>
-* Last modified : <2023-01-24>
+* Last modified : <2023-05-17>
 *
 * site:
 *
@@ -12,6 +12,9 @@
 *
 * ----------
 * Changelog:
+*
+* ~> Unreleased
+* <2023-05-17> 添加about页面Contributors样式
 *
 * ~> v2.0.0
 * <2023-01-24> 完整的重构，尽管内部使用的不是新技术，但仍然使GUI相当现代化
@@ -748,4 +751,28 @@ input.js-copytextinput {
   border-bottom-right-radius: 0;
   min-height: 28px;
   border: 1px solid #d1d5da;
+}
+
+
+/*******************************************************************************
+* 关于页面
+*
+*******************************************************************************/
+#about_cn_contributors ~ ul {
+  margin-left: 10px;
+}
+
+#about_cn_contributors ~ ul img.avatar {
+  vertical-align: middle;  /* 如果是百分数，则是基于 text-bottom */
+  border-radius:     50%;  /* rounded images */
+}
+
+#about_cn_contributors ~ ul li {
+
+  line-height: 70px;
+}
+
+#about_cn_contributors ~ ul li::marker {
+  color: #0e6fc9;
+  content: "";      /* 不添加也挺好的 */
 }
