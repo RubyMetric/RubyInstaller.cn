@@ -721,10 +721,61 @@ ul.downloadinfo {
   vertical-align: middle;
 }
 
+
+/*
+下面这段代码修改自:
+
+    http://www.staticfile.org/
+
+*/
 #GotCopied-PopUp {
-  position: fixed;
+
   display: none;
+
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25), 0 0 6px 0 rgba(0, 0, 0, .1);
+  min-width: 160px;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  /* 固定位置在最中间上面 */
+  position: fixed;
+  left: 50%;
+  top: 8%;
+
+/* I think there's no need to transform or transition
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  -webkit-transition: opacity .3s, -webkit-transform .4s;
+  transition: opacity .3s, -webkit-transform .4s;
+  transition: opacity .3s, transform .4s;
+  transition: opacity .3s, transform .4s, -webkit-transform .4s;
+*/
+
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 2000;
 }
+
+#GotCopied-PopUp-Message {
+  margin-left: 36px;
+  font-size:   16px;
+  line-height: 20px;
+  white-space: nowrap;
+  color: #777;
+  text-align: center;
+}
+
+#GotCopied-PopUp img {
+  width:  40px;
+  height: 40px;
+  /* 这个是最关键的样式 */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 
 button.js-copybtn {
   background:url("../images/copy_clipboard.svg");
