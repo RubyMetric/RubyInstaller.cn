@@ -1,6 +1,15 @@
 # Changelog
 
-## [Unreleased](#) (2023-01-24)
+## [Unreleased](#) (2023-05-17)
+
+### New features:
+
+- 添加下载页面**已复制**效果
+- 添加`about`页面Contributors样式
+
+### Enhancements:
+
+- 更新`jQuery`，从`v1.4.4`至`v3.7.0`
 
 <br>
 
