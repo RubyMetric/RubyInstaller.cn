@@ -17,13 +17,13 @@ title: ""
   </div>
 </div>
 
-<!-- 文章栏 -->
+<!-- 文章区域 -->
 <div class="span-22 last">
   <div id="page_right_content">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h2>
+        <h1 class="post-title"> {{ page.title | escape }} </h2>
 
         <div class="post-metadata">
           <span> 创建日期： <{{ page.date | date: "%Y-%m-%d" }}> </span>
@@ -45,25 +45,11 @@ title: ""
         {{ content }}
       </div>
 
-      <br>
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}
-      <br>
 
-      <footer class="post-footer">
-        <p class="posted">
-          <!-- 这里全部都使用page而不是post！实际上，只有page是first citizen. post只能通过site.posts来访问 -->
-          {% if page.authors %}
-            {% comment %} 参考https://jekyllrb.com/docs/liquid/filters/ {% endcomment %}
-            由 {{ page.authors | array_to_sentence_string: "与" }}
-          {% else %}
-            由 <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-          {% endif %} 发布于
-
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
-        </p>
-      </footer>
+      <footer class="post-footer"></footer>
 
     </article>
   </div>
