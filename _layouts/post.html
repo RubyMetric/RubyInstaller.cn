@@ -23,12 +23,22 @@ title: ""
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">{{ page.title | escape }}</h2>
+        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h2>
 
         <div class="post-metadata">
-          最后更新: {{ page.last_modified_at | date: '%Y-%m-%d' }}
+          <span> 创建日期： <{{ page.date | date: "%Y-%m-%d" }}> </span>
+          <span> 最后更新： <{{ page.last_modified_at | date: '%Y-%m-%d' }}> </span>
+          <span>
+          {% if page.authors %}
+            {% comment %} 参考https://jekyllrb.com/docs/liquid/filters/ {% endcomment %}
+            作者： {{ page.authors | array_to_sentence_string: "与" }}
+          {% else %}
+            作者： {{ page.author }}
+          {% endif %}
+          </span>
         </div>
 
+        <hr>
       </header>
 
       <div class="post-content" itemprop="articleBody">
