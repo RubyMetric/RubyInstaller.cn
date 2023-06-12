@@ -24,6 +24,11 @@ title: ""
 
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">{{ page.title | escape }}</h2>
+
+        <div class="post-metadata">
+          最后更新: {{ page.last_modified_at | date: '%Y-%m-%d' }}
+        </div>
+
       </header>
 
       <div class="post-content" itemprop="articleBody">

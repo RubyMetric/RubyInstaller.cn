@@ -14,6 +14,7 @@ group :jekyll_plugins do
    gem "jekyll-avatar",  "~> 0.8"
    gem "jekyll-feed",    "~> 0.17"
    gem "jekyll-sitemap", "~> 1.4"
+   gem "jekyll-last-modified-at", "~> 1.3"
 
    # 使用的机会比较少，暂时不用
    # gem "jekyll-admin",   "~> 0.11" # localhost:4000/admin
