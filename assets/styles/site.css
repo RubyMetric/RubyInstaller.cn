@@ -41,27 +41,6 @@ h1, h2, h3, h4, h5, h6 {
         margin: 1.3em 0px 0.6em 0px;
 }
 
-article h1 {
-        font-size: 32px;
-        margin: 0 0 14px 0;
-        border-bottom: 1px solid #cccccc;
-}
-
-article h2 {
-        font-family: "Microsoft YaHei", Arial, sans-serif;
-        font-size: 25px;
-        margin: 0 0 14px 0;
-        border-bottom: 1px solid #cccccc;
-}
-
-article h3 {
-        text-transform: uppercase;
-        font-size: 18px;
-}
-
-article h4 {font-size:1.2em;font-weight: bold; }
-
-
 #home_right_content h2 {
         text-align: center;
         font-size: 25.5px;
@@ -582,6 +561,41 @@ ul#sidenavbar a:hover {
 }
 
 
+/*******************************************************************************
+* 新闻页面
+*
+*******************************************************************************/
+article h1 {
+        font-size: 32px;
+        width: 750px;
+        margin: 0 0 14px 0;
+        /* border-bottom: 1px solid #cccccc; */
+}
+
+article .post-metadata {
+        /* text-align: right; */
+        color: #848383;
+}
+
+article .post-header span {
+        font-size: 15px;
+        display: block;
+}
+
+article h2 {
+        font-family: "Microsoft YaHei", Arial, sans-serif;
+        font-size: 22px;
+        margin: 0 0 14px 0;
+        border-bottom: 1px solid #cccccc;
+}
+
+article h3 {
+        text-transform: uppercase;
+        font-size: 18px;
+}
+
+article h4 {font-size:1.2em;font-weight: bold; }
+
 
 /*******************************************************************************
 * TODO: 待分类
@@ -599,11 +613,7 @@ div.news_item h3 {
         margin: 0 0 .25em 0;
 }
 div.news_item span.date,
-p.posted {
-        font-size: 12px;
-        color: #848383;
-        margin-right: 10px;
-}
+
 div.news_item a.more {
         background:url("../images/bullet.png") no-repeat 0 0px;
         padding-left: 20px;
@@ -658,7 +668,7 @@ div#footer a.edit {
 }
 
 #download #download-content h2 {
-        font-size: 25px; /* 与 article h2 保持一致 */
+        font-size: 22px; /* 与 article h2 保持一致 */
         border-bottom:1px solid #CCC;
         margin-bottom:20px;
 }
