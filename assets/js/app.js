@@ -3,11 +3,11 @@
 * Authors       : Lars Kanis <lars@greiz-reinsdorf.de>
 *                 Aoran Zeng <ccmywish@qq.com>
 * Created on    : <2023-05-16>
-* Last modified : <2023-06-13>
+* Last modified : <2023-06-14>
 *
-* application:
+* app:
 *
-*   This JavaScript file works normally.
+*   本站所有动态代码
 * ----------
 * Changelog:
 *
@@ -23,14 +23,14 @@ $(function() {
   we_are_on = we_are_on.replace(/\/$/, '');
 
   /*
-  $.get("http://localhost:2525/count/" + we_are_on, (data) => {
+  $.get("https://counter.ccmywish.com/count/" + we_are_on, (data) => {
     $counter = $('#PageCounter');
     $counter.html("累计访问" + data + "次");
     $counter.show();
   });
   */
 
-  $.post("http://101.42.25.251:2525/count", {link: we_are_on}, (data) => {
+  $.post("https://counter.ccmywish.com/count", {link: we_are_on}, (data) => {
     $counter = $('#PageCounter');
     $counter.html("累计访问: " + data + "次");
     $counter.show();
