@@ -5,7 +5,7 @@ permalink: /about/
 order: 10
 ---
 
-## 关于 RubyInstaller.cn
+# 关于 RubyInstaller.cn
 
 本站由**[Ruby China](https://ruby-china.org/)**社区成员开发维护，是对原网站**[rubyinstaller.org](https://rubyinstaller.org/)**的复刻（Fork）开发，除了大多数文章是原网站的翻译外，网站界面以及其他很多内容都为国内用户做了优化，比如下载页面中的下载链接均来自国内服务器，镜像提供方为**[上海交通大学软件源镜像服务](https://mirrors.sjtug.sjtu.edu.cn/)**。
 

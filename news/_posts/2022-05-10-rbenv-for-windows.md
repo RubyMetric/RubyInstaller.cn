@@ -12,8 +12,6 @@ permalink: rbenv-for-windows
 - [https://www.ruby-lang.org/en/documentation/installation/#rbenv-for-windows](https://www.ruby-lang.org/en/documentation/installation/#rbenv-for-windows)
 - [https://www.ruby-lang.org/zh_cn/documentation/installation/#rbenv-for-windows](https://www.ruby-lang.org/zh_cn/documentation/installation/#rbenv-for-windows)
 
-> 本文最后修订日期: <2023-04-12>
-
 ## 安装
 
 在终端中运行:

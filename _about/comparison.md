@@ -5,7 +5,7 @@ permalink: /about/comparison/
 order: 15
 ---
 
-## 这是为你准备的吗?
+# 这是为你准备的吗?
 
 **[Ruby](https://www.ruby-lang.org)**是一个**[很棒的编程语言](http://www.bestprogramminglanguagefor.me/why-learn-ruby)**，适合初学者和专业人士。它既适用于小型脚本，也适用于大型应用程序。
 
