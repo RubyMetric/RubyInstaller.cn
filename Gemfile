@@ -9,7 +9,7 @@ gem "jekyll", "~> 4.3"
 # github-pages只能要求jekyll为3.9，但是3.9有bug
 
 # If you have any plugins, put them here!
-# 插件更新检查时间 <2023-01-24>
+# 插件更新检查时间 <2023-06-13>
 group :jekyll_plugins do
    gem "jekyll-avatar",  "~> 0.8"
    gem "jekyll-feed",    "~> 0.17"
