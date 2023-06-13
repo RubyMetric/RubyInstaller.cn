@@ -26,16 +26,17 @@ title: ""
         <h1 class="post-title"> {{ page.title | escape }} </h2>
 
         <div class="post-metadata">
-          <span> 创建日期： <{{ page.date | date: "%Y-%m-%d" }}> </span>
-          <span> 最后更新： <{{ page.last_modified_at | date: '%Y-%m-%d' }}> </span>
-          <span>
+          <span> 创建日期：{{ page.date | date: "%Y-%m-%d" }} </span>
+          <span> 最后更新：{{ page.last_modified_at | date: '%Y-%m-%d' }} </span>
+          <span id="PageCounter" style="display: none;"> 浏览量 </span>
+          <p>
           {% if page.authors %}
             {% comment %} 参考https://jekyllrb.com/docs/liquid/filters/ {% endcomment %}
             作者： {{ page.authors | array_to_sentence_string: "与" }}
           {% else %}
             作者： {{ page.author }}
           {% endif %}
-          </span>
+          </p>
         </div>
 
         <hr>
