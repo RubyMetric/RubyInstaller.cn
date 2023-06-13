@@ -4,7 +4,7 @@
 *                 Lars Kanis <lars@greiz-reinsdorf.de>
 *                 Aozan Zeng <ccmywish@qq.com>
 * Created on    : <2021-01-19>
-* Last modified : <2023-05-17>
+* Last modified : <2023-06-13>
 *
 * site:
 *
@@ -603,6 +603,8 @@ article h1 {
         /* border-bottom: 1px solid #cccccc; */
 }
 
+
+
 article .post-metadata {
         /* text-align: right; */
         color: #848383;
@@ -610,8 +612,16 @@ article .post-metadata {
 
 article .post-header span {
         font-size: 15px;
-        display: block;
+        margin-right: 15px;
+        /* display: block; */
 }
+
+article .post-header p {
+        margin-top: 10px;
+        font-size: 15px;
+}
+
+
 
 article h2 {
         font-family: "Microsoft YaHei", Arial, sans-serif;
