@@ -522,6 +522,37 @@ div#download_btn a:active {
 
 
 /*******************************************************************************
+* 首页新闻列表
+*
+*******************************************************************************/
+div.news_item {
+        padding: 0 20px 20px 0;
+}
+div.news_item h3 {
+        font: 17px/1.5 Arial, Helvetica, sans-serif;
+        text-transform:none;
+        font-weight: bold;
+        color: #960407;
+        text-decoration: none;
+        margin: 0 0 .25em 0;
+}
+div.news_item span.date {
+        font-size: 12px;
+        color: #848383;
+        margin-right: 10px;
+}
+
+div.news_item a.more {
+        background:url("../images/bullet.png") no-repeat 0 0px;
+        padding-left: 20px;
+        padding-bottom: 1px;
+}
+div.news_item a:hover.more {
+        background:url("../images/bullet.png") no-repeat 0 -20px;
+}
+
+
+/*******************************************************************************
 * 新闻/关于页面的侧边导航栏
 *
 *******************************************************************************/
@@ -595,33 +626,6 @@ article h3 {
 }
 
 article h4 {font-size:1.2em;font-weight: bold; }
-
-
-/*******************************************************************************
-* TODO: 待分类
-*
-*******************************************************************************/
-div.news_item {
-        padding: 0 20px 20px 0;
-}
-div.news_item h3 {
-        font: 17px/1.5 Arial, Helvetica, sans-serif;
-        text-transform:none;
-        font-weight: bold;
-        color: #960407;
-        text-decoration: none;
-        margin: 0 0 .25em 0;
-}
-div.news_item span.date,
-
-div.news_item a.more {
-        background:url("../images/bullet.png") no-repeat 0 0px;
-        padding-left: 20px;
-        padding-bottom: 1px;
-}
-div.news_item a:hover.more {
-        background:url("../images/bullet.png") no-repeat 0 -20px;
-}
 
 
 /*******************************************************************************
