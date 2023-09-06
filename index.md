@@ -20,7 +20,7 @@ title: RubyInstaller for Windows - 国内镜像
 
 ## rbenv-cn
 
-您可使用**<a href="https://gitee.com/RubyKids/rbenv-cn" target="_blank">rbenv-cn</a>**来帮助您在国内网络环境下安装使用多版本Ruby，支持Linux与macOS.
+您可使用**<a href="https://gitee.com/RubyMetric/rbenv-cn" target="_blank">rbenv-cn</a>**来帮助您在国内网络环境下安装使用多版本Ruby，支持Linux与macOS.
 
 ## Support
 

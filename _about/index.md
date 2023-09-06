@@ -17,4 +17,4 @@ order: 10
 * {% avatar skyzh size=60 %} [Alex Chi](https://github.com/skyzh)  为本站协调镜像服务的提供
 * {% avatar larskanis size=60 %} [Lars Kanis](https://github.com/larskanis) 上游主要维护者，为建站以及镜像服务提供了信息
 
-若您有新的想法，发现了存在的问题或可改善的地方(比如更好的UI)，或您想直接参与开发与日常维护，请您在[RubyInstaller.cn issues]({{ site.issues_link }}) 处反馈，并请阅读[CONTRIBUTING.md](https://gitee.com/RubyKids/RubyInstaller.cn/blob/main/CONTRIBUTING.md)文件.
+若您有新的想法，发现了存在的问题或可改善的地方(比如更好的UI)，或您想直接参与开发与日常维护，请您在[RubyInstaller.cn issues]({{ site.issues_link }}) 处反馈，并请阅读[CONTRIBUTING.md](https://gitee.com/RubyMetric/RubyInstaller.cn/blob/main/CONTRIBUTING.md)文件.

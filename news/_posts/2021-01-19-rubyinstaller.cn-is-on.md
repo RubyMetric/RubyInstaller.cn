@@ -8,4 +8,4 @@ author: ccmywish
 
 感谢[上海交通大学软件源镜像服务](https://mirrors.sjtug.sjtu.edu.cn/)为本站提供所有下载内容。现在没有了访问流量过大费用过高的顾虑,我们也将逐步完善本网站,尽量与上游原站保持信息同步。
 
-您可在[issue](https://gitee.com/RubyKids/RubyInstaller.cn/issues)处向我们提交反馈。
+您可在[issue](https://gitee.com/RubyMetric/RubyInstaller.cn/issues)处向我们提交反馈。
