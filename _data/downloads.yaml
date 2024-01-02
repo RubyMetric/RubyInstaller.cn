@@ -1,5 +1,12 @@
 ---
 - filetype: ridk_exe
+  href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.0-1/rubyinstaller-devkit-3.3.0-1-x64.exe
+  name: Ruby+Devkit 3.3.0-1 (x64)
+  sha256: 01fc7d7889f161e94ae515c15fc1c22b7db506ab91af891cf7e1a764e96d8298
+  gpgsign: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.3.0-1/rubyinstaller-devkit-3.3.0-1-x64.exe.asc
+  show: true
+
+- filetype: ridk_exe
   href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.2.2-1/rubyinstaller-devkit-3.2.2-1-x64.exe
   name: Ruby+Devkit 3.2.2-1 (x64)
   sha256: 678619631c7e0e9b06bd53fd50689b47770fb577a8e49a35f615d2c8691aa6b7
@@ -19,11 +26,4 @@
   name: Ruby+Devkit 3.0.6-1 (x64)
   sha256: c44256eae6a934db39e4f3a56d39178ac87b8b754e9b66221910417adb59a3a1
   gpgsign: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.0.6-1/rubyinstaller-devkit-3.0.6-1-x64.exe.asc
-  show: true
-
-- filetype: ridk_exe
-  href: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.8-1/rubyinstaller-devkit-2.7.8-1-x64.exe
-  name: Ruby+Devkit 2.7.8-1 (x64)
-  sha256: b14a5df348a1794a86b9930fe97f895fb779fdf8b78dd1ee6ff5f2a1890b11eb
-  gpgsign: https://mirror.sjtu.edu.cn/github-release/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.8-1/rubyinstaller-devkit-2.7.8-1-x64.exe.asc
   show: true
