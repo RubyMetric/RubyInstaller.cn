@@ -1,0 +1,5 @@
+GNU GENERAL PUBLIC LICENSE Version 3 (GPLv3)
+
+Copyright (c) 2021-present Aoran Zeng. All rights reserved.
+
+See: https://www.gnu.org/licenses/gpl-3.0.html
